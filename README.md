@@ -1,6 +1,6 @@
 ## REMINDER
 
-create a .env file with `DATABASE_URL=mongodb://localhost/crud-nestjs` or your mongo URL
+create a .env file with `DATABASE_URL=mongodb://localhost/crud-nestjs` or your mongo URL<br>
 crie um arquivo .env com `DATABASE_URL=mongodb://localhost/crud-nestjs` ou sua URL do mongo
 
 <p align="center">
