@@ -1,3 +1,8 @@
+## REMINDER
+
+create a .env file with `DATABASE_URL=mongodb://localhost/crud-nestjs` or your mongo URL
+crie um arquivo .env com `DATABASE_URL=mongodb://localhost/crud-nestjs` ou sua URL do mongo
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
