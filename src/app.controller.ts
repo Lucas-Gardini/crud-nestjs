@@ -1,12 +1,13 @@
 import { Controller, Get } from "@nestjs/common";
 import { AppService } from "./app.service";
+import { IRoute } from "./main";
 
 @Controller()
 export class AppController {
 	constructor(private readonly appService: AppService) {}
 
 	@Get()
-	getHello(): string {
-		return this.appService.getHello();
+	getAllRoutes(): Promise<IRoute[]> {
+		return this.appService.getAllRoutes();
 	}
 }
